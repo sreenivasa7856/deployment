@@ -1,0 +1,15 @@
+environments:
+    - name: dev
+      configs:
+          endpoints:
+              production:
+                  url: 'https://dev.wso2.com'
+              sandbox:
+                  url: 'https://dev.sandbox.wso2.com'
+    - name: uat
+      configs:
+          endpoints:
+              production:
+                  url: 'https://prod.wso2.com'
+              sandbox:
+                  url: 'https://prod.sandbox.wso2.com'
